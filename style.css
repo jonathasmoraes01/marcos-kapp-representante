@@ -12,3 +12,5 @@
 .tax-panel{margin-top:8px;padding:14px;border:1px solid #e1ebe0;border-radius:12px;background:#f8fbf7}.tax-toggle{display:flex;align-items:center;gap:9px;font-weight:700;color:#244e3a;cursor:pointer;min-height:30px}.tax-toggle input{width:20px;height:20px;accent-color:#244e3a}.tax-panel .field{margin:12px 0 6px}.tax-value{display:flex;justify-content:space-between;margin-top:12px;font-size:13px;color:#52655a}
 
 .order-filters{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:12px}.order-filters label{display:block;font-size:12px;font-weight:700;color:#627168;margin:0 0 6px}.order-filters select{min-height:44px;color:#202c27}@media(max-width:500px){.order-filters{grid-template-columns:1fr;gap:0}.order-filters .search{margin-bottom:12px}}
+.itemactions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}
+@media(max-width:500px){.itemactions{flex-direction:column;align-items:stretch}.itemactions .btn{white-space:nowrap}}
